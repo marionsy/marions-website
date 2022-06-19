@@ -34,47 +34,61 @@ h1:hover {
     color: aquamarine;
 }
 
-#hello-kitty {
-     position: absolute;
-     right: 1200px;
-     top: 120px;
+#container {
+    display: flex;
+}
+
+#leftDiv {
+    width: 25%;
+}
+
+#centerDiv {
+    width: 50%;
+}
+
+#rightDiv {
+    width: 25%;
+}
+
+#wrapper {
+    margin-top: 10%;
+}
+
+ #hello-kitty {
+     display: flex;
+     margin: auto;
 }
 
 #slander {
-    position: absolute;
-    right: 1200px;
-    top: 240px;
-}
-
-#nezuko {
-    position: absolute;
-    left: 1200px;
-    top: 120px;
-}
-
-#excision {
-    position: absolute;
-    left: 1200px;
-    top: 240px;
+    display: block;
+    margin: auto;
 }
 
 #filipino {
-    position: absolute;
-    right: 1200px;
-    top: 360px;
+    display: block;
+    margin: auto;
+}
+
+#nezuko {
+    display: block;
+    margin: auto;
+}
+
+#excision {
+    display: block;
+    margin: auto;
 }
 
 #yoga {
-    position: absolute;
-    left: 1200px;
-    top: 360px;
-}
+    display: block;
+    margin: auto;
+} 
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .contact {
